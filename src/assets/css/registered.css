@@ -1,0 +1,17 @@
+.registered-tab{
+    display: flex;
+    justify-content: space-between;
+}
+.registered-tab-left{
+    display: flex;
+}
+.registered-tab-right{
+    display: flex;
+}
+#tab-top{
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+#zhuc{
+   
+}

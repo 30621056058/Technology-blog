@@ -3,6 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import 'bootstrap' 
+import 'bootstrap3/dist/css/bootstrap.css'
+import 'bootstrap3/dist/js/bootstrap'
+import "@/assets/css/registered.css"
+
+// import  'jquery'
+import $ from 'jquery'
+
+import { Checkbox, CheckboxGroup } from 'vant';
+
+Vue.use(Checkbox);
+Vue.use(CheckboxGroup);
+
+
 
 Vue.config.productionTip = false
 import { Button } from 'vant';
